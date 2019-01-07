@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void Sortear(View view){
         TextView texto = findViewById(R.id.textoEx2);
-        int n = new Random().nextInt(10);
+        int n = new Random().nextInt(11);
 
         texto.setText("O número escolhido foi: "+n);
     }
